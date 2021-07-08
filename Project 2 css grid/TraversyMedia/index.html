@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .wrapper{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /*grid-column-gap: 1em;
+    grid-row-gap:1em;*/
+    grid-gap:1em;
+}
+.wrapper > div{
+    background: #eee;
+    padding: 1em;
+}
+.wrapper > div:nth-child(odd){
+    background: #ddd;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, debitis non. Veritatis sint aspernatur dolorum porro delectus adipisci in, placeat voluptatem eveniet! Architecto, pariatur eius! Illum aut deserunt repellat nostrum atque id illo autem eaque reprehenderit quis, amet delectus accusamus possimus distinctio saepe velit quia aperiam porro, itaque ex neque natus corrupti. Repellendus molestiae sit repudiandae mollitia minus quae ad. Deleniti corrupti similique, repellat illo, dolor tempora obcaecati mollitia inventore aspernatur cumque, voluptates commodi rem ratione laborum? Voluptas, voluptatibus omnis!
+        </div>
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique molestiae. Nam laboriosam dolore numquam temporibus magni pariatur non nulla, tenetur asperiores, ea, culpa aliquam vero eveniet! Atque recusandae soluta deleniti aspernatur ab a reprehenderit sit labore. Iste accusantium asperiores voluptates officiis necessitatibus expedita quis, sit autem laboriosam est aperiam dicta aut nemo corporis? In vel quos non commodi quia unde recusandae quae, architecto molestiae repellat, voluptatibus obcaecati impedit incidunt! Iure, sint. Nostrum fugit laborum, consequatur mollitia est quam velit.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, debitis non. Veritatis sint aspernatur dolorum porro delectus adipisci in, placeat voluptatem eveniet! Architecto, pariatur eius! Illum aut deserunt repellat nostrum atque id illo autem eaque reprehenderit quis, amet delectus accusamus possimus distinctio saepe velit quia aperiam porro, itaque ex neque natus corrupti. Repellendus molestiae sit repudiandae mollitia minus quae ad. Deleniti corrupti similique, repellat illo, dolor tempora obcaecati mollitia inventore aspernatur cumque, voluptates commodi rem ratione laborum? Voluptas, voluptatibus omnis!
+        </div>
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique molestiae. Nam laboriosam dolore numquam temporibus magni pariatur non nulla, tenetur asperiores, ea, culpa aliquam vero eveniet! Atque recusandae soluta deleniti aspernatur ab a reprehenderit sit labore. Iste accusantium asperiores voluptates officiis necessitatibus expedita quis, sit autem laboriosam est aperiam dicta aut nemo corporis? In vel quos non commodi quia unde recusandae quae, architecto molestiae repellat, voluptatibus obcaecati impedit incidunt! Iure, sint. Nostrum fugit laborum, consequatur mollitia est quam velit.
+        </div>
+    </div>
+</body>
+</html>
